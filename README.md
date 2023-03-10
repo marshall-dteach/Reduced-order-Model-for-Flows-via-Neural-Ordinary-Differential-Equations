@@ -14,7 +14,7 @@
 
 &emsp;&emsp;模型的主体结构是`VAE`的`Encoder-Decoder`结构，编码器和解码器都是由`RNN`构成的，二者中间有一个神经微分方程节点用于处理`Encoder`提取到的关键信息，具体结构可见下图
 
-![结构图](D:\Desktop\Reduced-order-Model-for-Flows-via-Neural-Ordinary-Differential-Equations\Figure\Architecture.png)
+![结构图](Figure\Architecture.png)
 
 ## 3. 文件结构
 
@@ -32,11 +32,11 @@
 
 **1. 代码运行2000次，对8个时间参数的拟合结果见下图**
 
-![](D:\Desktop\Reduced-order-Model-for-Flows-via-Neural-Ordinary-Differential-Equations\Figure\Comparison.png)
+![拟合结果](Figure\Comparison.png)
 
 **2. 重构时空系统的结果见下图**
 
-![](D:\Desktop\Reduced-order-Model-for-Flows-via-Neural-Ordinary-Differential-Equations\Figure\Result.png)
+![重构结果](Figure\Result.png)
 
 ## 5. 配置需求
 
