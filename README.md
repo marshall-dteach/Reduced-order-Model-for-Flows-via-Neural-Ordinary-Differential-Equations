@@ -32,11 +32,11 @@
 
 **1. 代码运行2000次，对8个时间参数的拟合结果见下图**
 
-![拟合结果](Figure\Comparison.png)
+![拟合结果](https://github.com/marshall-dteach/Reduced-order-Model-for-Flows-via-Neural-Ordinary-Differential-Equations/blob/main/Figure/Comparison.png)
 
 **2. 重构时空系统的结果见下图**
 
-![重构结果](Figure\Result.png)
+![重构结果](https://github.com/marshall-dteach/Reduced-order-Model-for-Flows-via-Neural-Ordinary-Differential-Equations/blob/main/Figure/Result.png)
 
 ## 5. 配置需求
 
