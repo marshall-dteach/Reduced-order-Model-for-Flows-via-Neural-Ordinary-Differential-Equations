@@ -4,7 +4,7 @@
 
 &emsp;&emsp;该项目是基于飞桨paddlepaddle框架复现论文[Reduced-order Model for Fluid Flows via Neural Ordinary Differential Equations](https://arxiv.org/abs/2102.02248)。该项目的内容是对时间系数的模拟来实现降阶系统（`ROM`）对全阶系统（`FOM`）的重构，具体实现思路如下：
 
-1. 使用LES获取300组全阶系统的模拟数据
+1. 使用LES获取300组全阶系统的模拟数据，[流经圆柱的冯卡门涡街数据集 - 飞桨AI Studio (baidu.com)](https://aistudio.baidu.com/aistudio/datasetdetail/197821)
 2. 使用本征正交分解（`POD`）对全阶系统数据分解，选取前8个POD模式
 3. 拟设一个分解，假定原时空系统可有分解：时空系数（矩阵）= 时间系数（矩阵） x 空间系数（矩阵）
 4. 将时间系数提取出来，输入到一个包含神经微分方程节点的变分自编码器（`VAE`）中，编码器用于提取关键特征，解码器用于还原时间系数
